@@ -36,3 +36,17 @@ active
 {
 	background-color: transparent;
 }
+table
+{
+	margin-top: 50px;
+}
+.list-inline
+{
+	margin-top: 30px;
+	text-align: center;
+}
+i
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
