@@ -32,6 +32,10 @@ h1
 
 
 }
+.navBarElements
+{
+	text-align: center;
+}
 active
 {
 	background-color: transparent;
