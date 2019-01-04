@@ -1,0 +1,117 @@
+
+nav
+{
+	background-color: #003366;
+
+
+}
+.container-fluid
+{
+	padding:0px;
+}
+.list-inline-item a
+{
+	color: white;
+	text-decoration: none;
+}
+.decNone
+{
+	text-decoration: none;
+}
+footer
+{
+	background-color: black;
+	color: white;
+	margin-bottom: 0px;
+	padding: 15px;
+}
+ul
+{
+	font-family: 'Didact Gothic', sans-serif;
+}
+footer ul
+{
+	margin-bottom: 0px
+}
+p
+{
+	font-family: 'Didact Gothic', sans-serif;
+}
+h1
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+h2
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+h3
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+h5
+{
+	font-family: 'Didact Gothic', sans-serif;
+}
+.navbar-brand
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+.navbar-nav
+{
+	font-family: 'Nunito', sans-serif;
+}
+footer h3
+{
+	font-family: 'Fjalla One', sans-serif;
+}
+footer ul
+{
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+#wrap
+{
+	min-height: 100%;
+}
+
+
+@media screen and (max-width: 767px)
+{
+	.padding-fix
+	{
+		padding: 10px;
+	}
+}
